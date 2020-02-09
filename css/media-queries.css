@@ -1,0 +1,57 @@
+/**
+ * This css file targets screens with different sizes
+*/
+/*HIDING DIVS*/
+
+/*Hidden small and down*/
+@media only screen and (max-width: 768px) {
+    .hide-sm-down {
+        display: none;
+    }
+    
+}
+
+/*Hidden medium and up*/
+@media only screen and (min-width: 768px) {
+    .hide-md-up {
+        display: none;
+    }
+    
+}
+
+
+/* Large devices ( laptops and desktops, 1200px and down) */
+@media only screen and (max-width: 1200px) {
+   
+}
+
+/* Medium devices (landscape tablets, 1024px and down - iPad) */
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 600px) {
+
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+
+@media only screen and (max-width: 813px) {
+
+}
+
+
+
+/* Extra large devices (large laptops and desktops, 2400px and up) */
+@media only screen and (min-width: 2400px) {
+
+}
+
+
+@media (min-width: 1200px){
+.container {
+    width: 100%;
+    }
+}

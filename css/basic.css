@@ -1,0 +1,174 @@
+/* Nav - text properties */
+.nav-item{
+     font-family: Open Sans; font-size: 20px; font-variant: normal; font-weight: 600; line-height: 27px; color: white; 
+     
+}
+
+/* Nav bar colour */
+.navbar {
+    background-color:#1E4D5F;
+    margin: 0 0 0 0; 
+    width: 100%;
+}
+
+
+.header{
+
+}
+
+
+
+/*links decoration */
+a:not(:hover){
+    color: white;
+}
+
+.navbar-toggler-icon{
+    color: white;
+}
+
+
+/* para and headers */
+
+h1 {
+    font-family: Open Sans; font-size: 36px; font-variant: regular; font-weight: 600; line-height: 56px; color: #40295F; 
+    }
+
+
+h2 {
+    font-family: Open Sans; font-size: 24px; font-variant: regular; font-weight: 500; line-height: 38px; color: #40295F; 
+    }
+
+h5 {
+    font-family: Open Sans; font-size: 16px; font-variant: regular; font-weight: 300; line-height: 34px; color: white; 
+    }
+
+p {
+    font-family: Open Sans; font-size: 20px; font-variant: regular; font-weight: 400; line-height: 34px; color: #40295F; 
+    }
+
+
+/* submit button */
+
+.btn-primary2{
+  color: #FFFFFF;
+  background-color: #A75418;
+  font-size: 20px;
+  border-radius: 5px;
+  user-select: none;  
+  padding: 12px 18px;
+  top-margin: 4px;
+
+}
+
+/* footer */
+
+footer{
+    background-color:#1E4D5F;
+    margin: 0 0 0 0; 
+}
+
+
+/* slider */
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: 0;
+
+}
+
+
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  top: 50%;
+  padding:25%;
+  margin-top: -100px;
+  position: absolute;
+  width: auto;
+  color: #CCCCCC;
+  font-size: 50px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: -90%;
+  border-radius: 3px 0 0 3px;
+}
+
+
+
+.btn-primary{
+  top:45%;
+  padding:20px;
+  background-color: #A75418;
+  position: absolute;
+  border-radius: 5px;
+  font-family: Open Sans; 
+  font-size: 20px; 
+  font-weight: 400; 
+  line-height: 34px; 
+  color: #40295F; 
+  text-align: center; 
+  position: absolute;
+  top: 55%;
+  left: 32%;
+}
+
+/* Caption text */
+.text { 
+  top:5%;
+  padding:25%;
+  color: #40295F;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  float:left;
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3s;
+  animation-name: fade;
+  animation-duration: 3s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .5}
+  to {opacity: .5}
+}
+
+@keyframes fade {
+  from {opacity: .5}
+  to {opacity: .5}
+}
